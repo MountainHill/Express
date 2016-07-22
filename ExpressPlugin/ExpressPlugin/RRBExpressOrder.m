@@ -1,10 +1,3 @@
-//
-//  RRBExpressOrder.m
-//  ExpressPlugin
-//
-//  Created by dingyl on 16/7/22.
-//  Copyright © 2016年 丁业林. All rights reserved.
-//
 
 #import "RRBExpressOrder.h"
 

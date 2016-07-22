@@ -1,11 +1,8 @@
-//
-//  RRBExpressCompanyCode.h
-//  ExpressPlugin
-//
-//  Created by dingyl on 16/7/22.
-//  Copyright © 2016年 丁业林. All rights reserved.
-//
-
+/*****************************************
+ *作者: 仰婷婷 丁业林
+ *日期: 2016-07-22
+ *描述: 定义快递公司对应码
+ ******************************************/
 #ifndef RRBExpressCompanyCode_h
 #define RRBExpressCompanyCode_h
 
@@ -111,4 +108,4 @@
 #define ExpressPCA          @"PCA"      //PCA Express
 #define ExpressUEQ          @"UEQ"      //UEQ Express
 
-#endif /* RRBExpressCompanyCode_h */
+#endif 

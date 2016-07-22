@@ -1,11 +1,8 @@
-//
-//  RRBExpressOrder.h
-//  ExpressPlugin
-//
-//  Created by dingyl on 16/7/22.
-//  Copyright © 2016年 丁业林. All rights reserved.
-//
-
+/*****************************************
+ *作者: 丁业林
+ *日期: 2016-07-22
+ *描述: 快递单相关model
+ ******************************************/
 #import <Foundation/Foundation.h>
 
 @class RRBExpressTrace;
