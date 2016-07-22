@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A20808441D41C6A00061A042 /* RRBExpressOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = A20808431D41C6A00061A042 /* RRBExpressOrder.m */; };
 		A21407161D2569BE00128F78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A21407151D2569BE00128F78 /* main.m */; };
 		A21407191D2569BE00128F78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A21407181D2569BE00128F78 /* AppDelegate.m */; };
 		A214071C1D2569BE00128F78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A214071B1D2569BE00128F78 /* ViewController.m */; };
@@ -14,10 +15,12 @@
 		A21407211D2569BE00128F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21407201D2569BE00128F78 /* Assets.xcassets */; };
 		A21407241D2569BE00128F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21407221D2569BE00128F78 /* LaunchScreen.storyboard */; };
 		A214072F1D2569FB00128F78 /* RRBExpress.m in Sources */ = {isa = PBXBuildFile; fileRef = A214072B1D2569FB00128F78 /* RRBExpress.m */; };
-		A21407301D2569FB00128F78 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = A214072D1D2569FB00128F78 /* NSString+MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A20808411D41AF3D0061A042 /* RRBExpressCompanyCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRBExpressCompanyCode.h; sourceTree = "<group>"; };
+		A20808421D41C6A00061A042 /* RRBExpressOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRBExpressOrder.h; sourceTree = "<group>"; };
+		A20808431D41C6A00061A042 /* RRBExpressOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRBExpressOrder.m; sourceTree = "<group>"; };
 		A21407111D2569BE00128F78 /* ExpressPlugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpressPlugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21407151D2569BE00128F78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A21407171D2569BE00128F78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,8 +33,6 @@
 		A21407251D2569BE00128F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A214072B1D2569FB00128F78 /* RRBExpress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRBExpress.m; sourceTree = "<group>"; };
 		A214072C1D2569FB00128F78 /* RRBExpress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRBExpress.h; sourceTree = "<group>"; };
-		A214072D1D2569FB00128F78 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
-		A214072E1D2569FB00128F78 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +65,11 @@
 		A21407131D2569BE00128F78 /* ExpressPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				A20808411D41AF3D0061A042 /* RRBExpressCompanyCode.h */,
 				A214072C1D2569FB00128F78 /* RRBExpress.h */,
 				A214072B1D2569FB00128F78 /* RRBExpress.m */,
-				A214072E1D2569FB00128F78 /* NSString+MD5.h */,
-				A214072D1D2569FB00128F78 /* NSString+MD5.m */,
+				A20808421D41C6A00061A042 /* RRBExpressOrder.h */,
+				A20808431D41C6A00061A042 /* RRBExpressOrder.m */,
 				A21407171D2569BE00128F78 /* AppDelegate.h */,
 				A21407181D2569BE00128F78 /* AppDelegate.m */,
 				A214071A1D2569BE00128F78 /* ViewController.h */,
@@ -161,9 +163,9 @@
 			files = (
 				A214071C1D2569BE00128F78 /* ViewController.m in Sources */,
 				A21407191D2569BE00128F78 /* AppDelegate.m in Sources */,
-				A21407301D2569FB00128F78 /* NSString+MD5.m in Sources */,
 				A21407161D2569BE00128F78 /* main.m in Sources */,
 				A214072F1D2569FB00128F78 /* RRBExpress.m in Sources */,
+				A20808441D41C6A00061A042 /* RRBExpressOrder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +314,7 @@
 				A214072A1D2569BE00128F78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

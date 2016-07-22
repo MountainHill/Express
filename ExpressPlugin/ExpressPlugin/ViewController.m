@@ -17,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [RRBExpress queryExpressList:@"圆通" orderCode:@"807138721139"];
+    [RRBExpress queryByExpressCompanyCode:ExpressYto expressNumber:@"807138721139" result:^(NSError *resultError, RRBExpressOrder *expressOrder) {
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
