@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.summary  = 'query express tracks'
   s.homepage = 'https://github.com/MountainHill/Express'
   s.authors  = { 'MountainHill' => '630964507@qq.com' }
-  s.source   = { :git => 'https://github.com/MountainHill/Express/ExpressPlugin/ExpressPlugin' }
+  s.source   = { :git => 'https://github.com/MountainHill/Express.git' }
   s.requires_arc = true
   
-  s.public_header_files = 'RRBExpressCompanyCode.h','RRBExpress.h','RRBExpressOrder.h'
-  s.source_files = 'RRBExpressCompanyCode.h','RRBExpress.h','RRBExpressOrder.h','RRBExpress.m','RRBExpressOrder.m'
+  s.public_header_files = 'ExpressPlugin/ExpressPlugin/RRBExpressCompanyCode.h','ExpressPlugin/ExpressPlugin/RRBExpress.h','ExpressPlugin/ExpressPlugin/RRBExpressOrder.h'
+  s.source_files = 'ExpressPlugin/ExpressPlugin/RRBExpressCompanyCode.h','ExpressPlugin/ExpressPlugin/RRBExpress.h','ExpressPlugin/ExpressPlugin/RRBExpressOrder.h','ExpressPlugin/ExpressPlugin/RRBExpress.m','ExpressPlugin/ExpressPlugin/RRBExpressOrder.m'
   
 end
