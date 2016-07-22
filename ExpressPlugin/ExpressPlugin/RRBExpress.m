@@ -37,7 +37,6 @@
  */
 
 #import "RRBExpress.h"
-#import "RRBExpressOrder.h"
 #import <CommonCrypto/CommonDigest.h>
 
 @interface RRBExpress ()
