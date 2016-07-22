@@ -5,7 +5,8 @@
  ******************************************/
 #import <Foundation/Foundation.h>
 #import "RRBExpressCompanyCode.h"
-#import "RRBExpressOrder.h"
+
+@class RRBExpressOrder;
 
 @interface RRBExpress : NSObject
 
